@@ -1,12 +1,33 @@
 body {background-color: #31393C;}
-h1 {color: #73c2fb; font-family: 'Titillium Web', sans-serif;}
-h3 {color: #33A1FD;font-family: 'Open Sans', sans-serif;}
-p {color: #33A1FD; font-family: 'Open Sans', sans-serif;}
-.headersec{background-color: #242A2D; padding-left: 20px; padding-right: 10px; padding-top: 20px; padding-bottom: 15px; margin-top: 0px; margin-bottom: -1px;}
-.headerlinks{font-size: 16px; color: #33A1FD; text-shadow: 10px 2px 5px #102057;}
-.introsec{background-color: #31393C; padding-left: 20px; padding-right: 20px; padding-top: 5px;}
+h1 {color: #73c2fb; font-family: 'Titillium Web', sans-serif;  display: inline;}
+h3 {color: /*#33A1FD*/ #9DE1FE;font-family: 'Open Sans', sans-serif;}
+p {color: /*#33A1FD*/ #E8F6F6; font-family: 'Open Sans', sans-serif;}
+.headersec{background-color: #242A2D; padding-left: 40px; padding-right: 10px; padding-top: 20px; padding-bottom: 15px; margin-top: 0px; margin-bottom: -1px;}
+.headerlinks{font-size: 16px; color: /*#33A1FD*/#FDCA40; text-shadow: 10px 2px 5px #102057; font-family: 'Titillium Web', sans-serif;}
+.introsec{background-color: #31393C; padding-left: 40px; padding-right: 50px; padding-top: 15px;}
 .caroselcontainer{padding: 100px; padding-top: 20px;}
 footer{background-color: #07080C; padding: 20px;}
+iframe{padding: 20px;}
+.socialicons{float: right;  display: inline; }
+.socialimg{padding-left: 10px; padding-right: 10px; filter: drop-shadow(1px 9px 9px rgba(50,50,50,.5));}
+.socialimg:hover{filter: drop-shadow(1px 9px 9px rgba(0,250,0,0.3));}
+li{color: #E8F6F6; font-family: 'Open Sans', sans-serif;}
+.decorimg{float: right; filter: drop-shadow(1px 9px 9px rgba(0,0,0,0.3));}
 /* Google Font Families
 font-family: 'Open Sans', sans-serif;
 font-family: 'Titillium Web', sans-serif; */
+@media only screen and (min-width: 800px){
+  .caroselcontainer{width: 90%;}
+}
+@media only screen and (min-width: 1250px){
+  .caroselcontainer{width: 80%;}
+}
+@media only screen and (min-width: 1650px){
+  .caroselcontainer{width: 70%;}
+}
+@media only screen and (min-width: 2050px){
+  .caroselcontainer{width: 50%;}
+}
+@media only screen and (max-width: 695px) {
+  .socialimg{display: none; float: left;}
+}
